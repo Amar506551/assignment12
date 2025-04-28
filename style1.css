@@ -1,4 +1,4 @@
-font-face {
+@font-face {
     font-family:'epaomayek' ;
     src: url('EPAOMAYEK.TTF')format('truetype');
 }
@@ -10,7 +10,7 @@ body{
     color: rgb(125, 42, 9);
     font-size: 20px;
     letter-spacing: normal;
-
+    
 }
 
 
@@ -18,6 +18,8 @@ body{
     .navbar {
         background-color: rgb(10, 131, 10);
         overflow: hidden;
+        font-family:'epaomayek' ;
+    src: url('EPAOMAYEK.TTF')format('truetype');
       }
       
       .navbar a {
@@ -80,6 +82,12 @@ body{
         padding: 20px;
         margin-bottom: 20px;
         border: 1px solid #ccc;
+        font-family:'epaomayek' ;
+       src: url('EPAOMAYEK.TTF')format('truetype');
+      }
+      .footer{
+        font-family:'epaomayek' ;
+    src: url('EPAOMAYEK.TTF')format('truetype');
       }
       
       h1, h2 {
